@@ -24,4 +24,7 @@ jobs:
       - name: Echo Terminal
         run: echo Hello, world!
 
+      - name: Di la feha Hoy 
+        run: date
+
     
