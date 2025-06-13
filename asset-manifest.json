@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/Luisgatovolador/deswebintegralLORL.git/static/js/main.5fa83e1f.js",
-    "index.html": "/Luisgatovolador/deswebintegralLORL.git/index.html",
-    "main.5fa83e1f.js.map": "/Luisgatovolador/deswebintegralLORL.git/static/js/main.5fa83e1f.js.map"
+    "main.js": "/deswebintegralLORL/static/js/main.5fa83e1f.js",
+    "index.html": "/deswebintegralLORL/index.html",
+    "main.5fa83e1f.js.map": "/deswebintegralLORL/static/js/main.5fa83e1f.js.map"
   },
   "entrypoints": [
     "static/js/main.5fa83e1f.js"
