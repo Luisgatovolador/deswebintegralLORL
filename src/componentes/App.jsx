@@ -21,33 +21,38 @@ function App() {
             imagen: 'https://www.fishipedia.es/wp-content/uploads/2016/01/poisson_rouge-2.jpg',
         },
     ];
+  return (
+    <>
+      <NavBar />
+      <div style={{ padding: '20px' }}>
+        <h2>Bienvenido a mi bonita y hermosa web sobre mis Mascotas Actividad 4 y Desafio 2 y toda la cosas</h2>
+        <hr />
+        <p>
+          Esta simple aplicación fue creada con React donde puedes Patrocinar a mis mascotas
+        </p>
+      </div>
 
-    return (
-        <>
-            <NavBar />
-            <div style={{ padding: '20px' }}>
-                <h2>Bienvenido a mi bonita y hermosa web sobre mis Mascotas Actividad 4 y Desafio 2 y toda la cosas </h2>
-                <hr />
-                <p>Esta sdfsdgvadsfasdfadsfafdadfsDFasdfx adfs asdf ads fadsf asdsimple aplicación fue creada con React donde puedes Patrocinar a mis mascotas </p>
+      <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
+        {mascotas.map((mascota, index) => (
+          <div key={index} className="card" style={{ width: '18rem', margin: '10px' }}>
+            <img
+              src={mascota.imagen || 'https://via.placeholder.com/286x180?text=Sin+imagen'}
+              className="card-img-top"
+              alt={`Imagen de ${mascota.nombre}`} // alt descriptivo para accesibilidad
+            />
+            <div className="card-body">
+              <h5 className="card-title">{mascota.nombre}</h5>
+              <p className="card-text">{mascota.descripcion}</p>
+              {/* Si no tienes url válida, usa un botón en vez de un enlace */}
+              <button className="btn btn-primary" onClick={() => alert(`Patrocinaste a ${mascota.nombre}`)}>
+                Patrocinar
+              </button>
             </div>
-
-            <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
-                {mascotas.map((mascota, index) => (
-                    <div key={index} className="card" style={{ width: '18rem', margin: '10px' }}>
-                        <img
-                            src={mascota.imagen}
-                            className="card-img-top"
-                        />
-                        <div className="card-body">
-                            <h5 className="card-title">{mascota.nombre}</h5>
-                            <p className="card-text">{mascota.descripcion}</p>
-                            <a href="#" className="btn btn-primary">Patrocinar </a>
-                        </div>
-                    </div>
-                ))}
-            </div>
-        </>
-    );
+          </div>
+        ))}
+      </div>
+    </>
+  );
 }
 
 export default App;
