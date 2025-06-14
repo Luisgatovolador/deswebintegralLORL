@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/deswebintegralLORL/static/js/main.07c3a2a7.js",
+    "main.js": "/deswebintegralLORL/static/js/main.b2d5727d.js",
     "index.html": "/deswebintegralLORL/index.html",
-    "main.07c3a2a7.js.map": "/deswebintegralLORL/static/js/main.07c3a2a7.js.map"
+    "main.b2d5727d.js.map": "/deswebintegralLORL/static/js/main.b2d5727d.js.map"
   },
   "entrypoints": [
-    "static/js/main.07c3a2a7.js"
+    "static/js/main.b2d5727d.js"
   ]
 }
