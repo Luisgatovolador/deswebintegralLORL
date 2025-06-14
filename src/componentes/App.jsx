@@ -26,7 +26,7 @@ function App() {
         <>
             <NavBar />
             <div style={{ padding: '20px' }}>
-                <h2>Bienvenido a mi página web sobre mis Mascotas  Desafio dos</h2>
+                <h2>Bienvenido a mi página web sobre mis Mascotas  Desafio 2</h2>
                 <hr />
                 <p>Esta simple aplicación fue creada con React donde puedes Patrocinar a mis mascotas </p>
             </div>
