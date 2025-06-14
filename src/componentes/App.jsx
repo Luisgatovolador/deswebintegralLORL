@@ -28,7 +28,7 @@ function App() {
             <div style={{ padding: '20px' }}>
                 <h2>Bienvenido a mi bonita y hermosa web sobre mis Mascotas Actividad 4 y Desafio 2 y toda la cosas </h2>
                 <hr />
-                <p>Esta sdfDFasdfx adfs asdf ads fadsf asdsimple aplicación fue creada con React donde puedes Patrocinar a mis mascotas </p>
+                <p>Esta sdfsdgvadsfasdfadsfafdadfsDFasdfx adfs asdf ads fadsf asdsimple aplicación fue creada con React donde puedes Patrocinar a mis mascotas </p>
             </div>
 
             <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
