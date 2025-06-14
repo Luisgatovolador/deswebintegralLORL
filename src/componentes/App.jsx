@@ -1,4 +1,7 @@
 import NavBar from '../componentes/NavBar';
+import { BrowserRouter, Routes, Route } from 'react-router-dom'; import Layout from './Layout';
+import './App.css';
+
 
 function App() {
     const mascotas = [
@@ -23,7 +26,7 @@ function App() {
         <>
             <NavBar />
             <div style={{ padding: '20px' }}>
-                <h2>Bienvenido a mi página web sobre mis mascotas</h2>
+                <h2>Bienvenido a mi página web sobre mis Mascotas  Desafio dos</h2>
                 <hr />
                 <p>Esta simple aplicación fue creada con React donde puedes Patrocinar a mis mascotas </p>
             </div>
