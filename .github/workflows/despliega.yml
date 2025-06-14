@@ -3,10 +3,10 @@ name: Despliega
 on:
   push:
     branches:
-      - main
+      - Version1
   pull_request:
     branches:
-      - main
+      - Version1
 
 jobs:
   deploy:
