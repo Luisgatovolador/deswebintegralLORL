@@ -25,7 +25,7 @@ function App() {
     <>
       <NavBar />
       <div style={{ padding: '20px' }}>
-        <h2>Bienvenido a mi bonita y hermosa web sobre mis Mascotas Actividad 4 y Desafio 2 y toda la cosas</h2>
+        <h2>Bienvenido a mi  sdfdsfs dfsdfsdf bonita y hermosa web sobre mis Mascotas Actividad 4 y Desafio 2 y toda la cosas</h2>
         <hr />
         <p>
           Esta simple aplicación fue creada con React donde puedes Patrocinar a mis mascotas
